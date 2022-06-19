@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2a282a;
+  font-family: sans-serif;
+}
+main {
+  background-color: #fcea49;
+  width: 330px;
+  height: 480px;
+  position: absolute;
+  color: black;
+  top: 5%;
+  left: 30%;
+  padding: 2rem;
+}
+.sub-main {
+  background-color: white;
+  width: 350px;
+  min-height: 200px;
+  position: absolute;
+  padding: 3rem 2rem 2rem;
+  color: gray;
+  top: 20%;
+  box-shadow: 5px 5px 5px rgb(43, 42, 42);
+}
+.flex {
+  display: flex;
+}
+.flex:first-of-type {
+  justify-content: space-between;
+}
+.flex:first-of-type i {
+  margin-top: 1rem;
+}
+input,
+textarea {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  margin-bottom: 0.6rem;
+  width: 100%;
+}
+.sub-main p {
+  font-size: 0.6rem;
+}
+.flex input {
+  width: 100%;
+}
+input::placeholder,
+textarea::placeholder {
+  color: black;
+}
+img {
+  border-radius: 50%;
+  position: absolute;
+  top: -8%;
+  width: 4rem;
+  height: 4rem;
+}
+.bottom {
+  bottom: 2%;
+  position: absolute;
+  left: 60%;
+}
+.bottom p {
+  margin-left: 1rem;
+  color: grey;
+}
+.flex:first-of-type p {
+  font-weight: 600;
+}
